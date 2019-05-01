@@ -1,0 +1,27 @@
+body{margin-top:20px;}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+.textbox-lines {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    background-attachment: local;
+    background-image: linear-gradient(to right, #FFF, #FFF 10px, transparent 10px), linear-gradient(to left, #FFF, #FFF 10px, transparent 10px), repeating-linear-gradient(#FFF, #FFF 36px, #CCC 36px, #CCC 38px);
+    line-height: 38px;
+    padding: 6.3333333333px 10px;
+    resize: none;
+  }
